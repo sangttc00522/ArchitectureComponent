@@ -67,16 +67,11 @@ dependencies {
     // optional - RxJava support
     implementation "android.arch.paging:rxjava2:$paging_version"
 
-    //Navigation
     // Navigation
     implementation "android.arch.navigation:navigation-fragment-ktx:$nav_version"
     implementation "android.arch.navigation:navigation-ui-ktx:$nav_version"
     androidTestImplementation "android.arch.navigation:navigation-testing:$nav_version"
 
-   /* //WorkManager
-    implementation "android.arch.work:work-runtime-ktx:$work_version" // use -ktx for Kotlin+Coroutines
-    // optional - RxJava2 support
-    implementation "android.arch.work:work-rxjava2:$work_version"
-    // optional - Test helpers
-    androidTestImplementation "android.arch.work:work-testing:$work_version"*/
+    /*//WorkManager
+    implementation "android.arch.work:work-runtime:$work_version"*/
 }
